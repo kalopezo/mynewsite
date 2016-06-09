@@ -34,16 +34,33 @@
                 <label for="email">E-mail:  </label>
               </td>
               <td>
-                <input type="text" name="email"><br><br>
+                <input type="text" name="email"><br>
               </td>
             </tr>
             <tr>
-              <td colspan="2">
-                <center><input type="submit" name="Register" value ="Register"></center>
+              <td>
+                <label for="sexo">Sexo  </label>
+              </td>
+              <td>
+                <center>
+                  <select name="sexo">
+                    <option>Seleccion su sexo</option>
+                    <option value="M">M</option>
+                    <option value="F">F</option>
+                    <option value="O">Other</option>
+                  </select>
+                </center>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <center> <button type="submit" name="guardar">Registrar usuario</button></center>
+              </td>
+              <td>
+                <center> <button type="reset" name="limpiar">Limpiar</button></center>
               </td>
             </tr>
           </form>
-
         </table>
       </center>
     </div>
