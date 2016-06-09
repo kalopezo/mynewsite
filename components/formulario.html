@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta charset="UTF-8">
+	  <title>Redireccionando al index</title>
+  </head>
+
+  <body>
+    <div>
+      <center>
+        <h3>Formulario de registro de usuario</h3>
+      </center>
+      <center>
+        <table border=2>
+          <form action="insertarUsuario.php" method="post">
+            <tr>
+              <td>
+                <label for="first_name">First name:</label>
+              </td>
+              <td>
+                <input type="text" name="first_name"><br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="last_name">Last name:</label>
+              </td>
+              <td>
+                <input type="text" name="last_name"><br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email">E-mail:  </label>
+              </td>
+              <td>
+                <input type="text" name="email"><br><br>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><input type="submit" name="Register" value ="Register"></center>
+              </td>
+            </tr>
+          </form>
+
+        </table>
+      </center>
+    </div>
+  </body>
+</html>
